@@ -1,6 +1,8 @@
+import Link from "next/link";
+
 export default function HeroScreen() {
 	return (
-		<div className="flex justify-center">
+		<div className="flex justify-center font-opensans tracking-tighter">
 			<div className=" text-black text-start my-8 w-6/12 text-2xl flex flex-col space-y-20">
 				<div className="">
 					I'm a software engineer that uses cloud services to build scalable,
@@ -29,10 +31,12 @@ export default function HeroScreen() {
 						This
 					</a>{" "}
 					is my resume. You can read more about my projects{" "}
-					<a className="cursor-pointer text-blue-700 hover:no-underline underline underline-offset-2">
-						{" "}
-						here
-					</a>
+					<Link href="/projects">
+						<span className="cursor-pointer text-blue-700 hover:no-underline underline underline-offset-2">
+							{" "}
+							here
+						</span>
+					</Link>
 					.
 				</span>
 
@@ -50,7 +54,7 @@ export default function HeroScreen() {
 					</div>
 				</div>
 
-				<div className="pb-20">I don't like over designing. </div>
+				<div className="pb-20">I enjoy simple design. </div>
 			</div>
 		</div>
 	);
