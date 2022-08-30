@@ -5,12 +5,12 @@ export default function HeroScreen() {
 		<div className="flex justify-center font-opensans tracking-tighter">
 			<div className=" text-black text-start my-8 w-6/12 text-2xl flex flex-col space-y-20">
 				<div className="">
-					I'm a software engineer that uses cloud services to build scalable,
-					cost-effective, and efficient fullstack applications.
+					I&apos;m a software engineer that uses cloud services to build
+					scalable, cost-effective, and efficient fullstack applications.
 				</div>
 
 				<span>
-					I'm currently
+					I&apos;m currently
 					<a className="group cursor-pointer text-blue-700 hover:no-underline underline underline-offset-2">
 						{" "}
 						building an intelligent automated grow system and software to raise
@@ -22,7 +22,7 @@ export default function HeroScreen() {
 				</span>
 
 				<span>
-					I'm interested in building web and cloud-based solutions to solve
+					I&apos;m interested in building web and cloud-based solutions to solve
 					problems in the farming industry.
 				</span>
 
