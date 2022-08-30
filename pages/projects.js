@@ -70,7 +70,7 @@ export default function projects() {
 					rel="stylesheet"
 				/>
 			</Head>
-			<div className="w-6/12">
+			<div className="w-10/12 md:w-6/12">
 				<div className="grid grid-cols-1 divide-y-2">
 					{projectDb.map(
 						({ name, img, date, desc, demo, code, technologies }) => {

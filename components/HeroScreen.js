@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function HeroScreen() {
 	return (
 		<div className="flex justify-center font-opensans tracking-tighter">
-			<div className=" text-black text-start my-8 w-6/12 text-2xl flex flex-col space-y-20">
+			<div className=" text-black text-start my-8 w-10/12 md:w-6/12 text-xl md:text-2xl flex flex-col space-y-20">
 				<div className="">
 					I&apos;m a software engineer that uses cloud services to build
 					scalable, cost-effective, and efficient fullstack applications.
@@ -41,17 +41,15 @@ export default function HeroScreen() {
 				</span>
 
 				<div className="py-20">
-					<div className="text-2xl">
+					<div className="">
 						My favorite technologies are Java, React.js, Next.js, Node.js, and
 						AWS.
 					</div>
-					<div className="text-2xl pt-12">
+					<div className="pt-12">
 						My favorite AWS services are DynamoDB, Lambda, Cloudwatch, SQS, S3,
 						API Gateway, AWS IoT.
 					</div>
-					<div className="text-2xl pt-4">
-						My least favorite AWS service is Billing.
-					</div>
+					<div className="pt-4">My least favorite AWS service is Billing.</div>
 				</div>
 
 				<div className="pb-20">I enjoy simple design. </div>
