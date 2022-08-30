@@ -45,11 +45,12 @@ export const ApplicationContainer = ({ children }) => {
 										Matthew Kim
 									</div>
 								</Link>
-								<div className="font-raleway font-semibold text-xl">
-									<Link href="/projects">
-										<div className="cursor-pointer">Projects</div>
-									</Link>
-								</div>
+
+								<Link href="/projects">
+									<div className="font-raleway text-xl font-semibold cursor-pointer">
+										Projects
+									</div>
+								</Link>
 							</div>
 						</div>
 					</Header>

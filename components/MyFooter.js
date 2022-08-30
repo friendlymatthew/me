@@ -9,7 +9,7 @@ export default function MyFooter() {
 					rel="noreferrer"
 				>
 					<img src="/github.svg" className="h-6 w-6" />
-					<div className="group-hover:underline underline-offset-2">
+					<div className="group-hover:underline underline-offset-4">
 						friendlymatthew
 					</div>
 				</a>
@@ -20,7 +20,7 @@ export default function MyFooter() {
 					rel="noreferrer"
 				>
 					<img src="/linkedin.svg" className="h-6 w-6" />
-					<div className="group-hover:underline underline-offset-2">
+					<div className="group-hover:underline underline-offset-4">
 						in/mat-thew
 					</div>
 				</a>

@@ -4,19 +4,24 @@ export default function HeroScreen() {
 	return (
 		<div className="flex justify-center font-opensans tracking-tighter">
 			<div className=" text-black text-start my-8 w-10/12 md:w-6/12 text-xl md:text-2xl flex flex-col space-y-20">
-				<div className="">
+				<span className="">
 					I&apos;m a software engineer that uses cloud services to build
-					scalable, cost-effective, and efficient fullstack applications.
-				</div>
+					scalable, cost-effective, and efficient applications.{" "}
+					<Link href="/proof">
+						<span className="text-sm text-blue-700 hover:no-underline underline underline-offset-1 cursor-pointer">
+							Proof
+						</span>
+					</Link>
+				</span>
 
 				<span>
 					I&apos;m currently
-					<a className="group cursor-pointer text-blue-700 hover:no-underline underline underline-offset-2">
+					<a className="group cursor-pointer text-blue-700 hover:no-underline underline  underline-offset-4">
 						{" "}
 						building an intelligent automated grow system and software to raise
 						and sell organic spinach{" "}
 					</a>
-					<a className="cursor-pointer text-emerald-800 hover:no-underline underline underline-offset-2">
+					<a className="cursor-pointer text-emerald-800 hover:no-underline underline underline-offset-4">
 						with the data to back it up.
 					</a>
 				</span>
@@ -27,12 +32,12 @@ export default function HeroScreen() {
 				</span>
 
 				<span>
-					<a className=" cursor-pointer text-blue-700 hover:no-underline underline underline-offset-2">
+					<a className=" cursor-pointer text-blue-700 hover:no-underline underline underline-offset-4">
 						This
 					</a>{" "}
 					is my resume. You can read more about my projects{" "}
 					<Link href="/projects">
-						<span className="cursor-pointer text-blue-700 hover:no-underline underline underline-offset-2">
+						<span className="cursor-pointer text-blue-700 hover:no-underline underline underline-offset-4">
 							{" "}
 							here
 						</span>
@@ -52,7 +57,7 @@ export default function HeroScreen() {
 					<div className="pt-4">My least favorite AWS service is Billing.</div>
 				</div>
 
-				<div className="pb-20">I enjoy simple design. </div>
+				<div className="pb-20">I enjoy simple design.</div>
 			</div>
 		</div>
 	);
