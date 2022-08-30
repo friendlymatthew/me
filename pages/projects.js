@@ -75,7 +75,7 @@ export default function projects() {
 					{projectDb.map(
 						({ name, img, date, desc, demo, code, technologies }) => {
 							return (
-								<div className="py-8">
+								<div key={name} className="py-8">
 									<div className="text-md text-gray-600 pb-2 font-opensans tracking-tighter">
 										{date}
 									</div>
@@ -122,19 +122,19 @@ export default function projects() {
 												className="font-raleway font-semibold hover:text-white cursor-pointer items-center flex space-x-4 border-black border py-1 px-3 rounded-md hover:bg-black transition ease-in duration-200"
 												href={demo}
 												target="_blank"
-												rel="no_referrer"
+												rel="noreferrer"
 											>
 												<svg
 													xmlns="http://www.w3.org/2000/svg"
 													fill="none"
 													viewBox="0 0 24 24"
-													stroke-width="1.5"
+													strokeWidth="1.5"
 													stroke="currentColor"
 													className="w-5 h-5"
 												>
 													<path
-														stroke-linecap="round"
-														stroke-linejoin="round"
+														strokeLinecap="round"
+														strokeLinejoin="round"
 														d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0V12a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 12V5.25"
 													/>
 												</svg>
@@ -148,19 +148,19 @@ export default function projects() {
 											className="font-raleway  font-semibold hover:text-white cursor-pointer items-center flex space-x-4 border-black border py-1 px-3 rounded-md hover:bg-black transition ease-in duration-200"
 											href={code}
 											target="_blank"
-											rel="no_referrer"
+											rel="noreferrer"
 										>
 											<svg
 												xmlns="http://www.w3.org/2000/svg"
 												fill="none"
 												viewBox="0 0 24 24"
-												stroke-width="1.5"
+												strokeWidth="1.5"
 												stroke="currentColor"
 												className="w-5 h-5"
 											>
 												<path
-													stroke-linecap="round"
-													stroke-linejoin="round"
+													strokeLinecap="round"
+													strokeLinejoin="round"
 													d="M14.25 9.75L16.5 12l-2.25 2.25m-4.5 0L7.5 12l2.25-2.25M6 20.25h12A2.25 2.25 0 0020.25 18V6A2.25 2.25 0 0018 3.75H6A2.25 2.25 0 003.75 6v12A2.25 2.25 0 006 20.25z"
 												/>
 											</svg>
