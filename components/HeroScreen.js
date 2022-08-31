@@ -16,7 +16,12 @@ export default function HeroScreen() {
 
 				<span>
 					I&apos;m currently
-					<a className="group cursor-pointer text-blue-700 hover:no-underline underline  underline-offset-4">
+					<a
+						href="https://courtst-farmers.vercel.app"
+						target="_blank"
+						rel="noreferrer"
+						className="group cursor-pointer text-blue-700 hover:no-underline underline  underline-offset-4"
+					>
 						{" "}
 						building an intelligent automated grow system and software to raise
 						and sell organic spinach{" "}
