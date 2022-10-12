@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function MyHeader() {
+export default function MyHeader({ color }) {
 	const handleResume = () => {
 		// using Java Script method to get PDF file
 		fetch("resume.pdf").then((response) => {

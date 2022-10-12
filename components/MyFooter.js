@@ -1,6 +1,6 @@
 export default function MyFooter() {
 	return (
-		<div className="py-5 border-t bg-[#d2e4ff] border-slate-800 flex justify-center items-center font-raleway tracking-tighter">
+		<div className="py-5 border-t  border-slate-800 flex justify-center items-center font-raleway tracking-tighter">
 			<div className="flex space-x-12 items-center">
 				<a
 					className="cursor-pointer flex space-x-2 items-center group"

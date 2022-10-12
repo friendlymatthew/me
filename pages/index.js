@@ -282,7 +282,9 @@ export default function Home() {
 					</div>
 				</section>
 			</main>
-			<MyFooter />
+			<div className="bg-[#d2e4ff]">
+				<MyFooter />
+			</div>
 		</div>
 	);
 }

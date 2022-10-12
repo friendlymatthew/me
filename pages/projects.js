@@ -71,18 +71,21 @@ export default function projects() {
 				/>
 			</Head>
 
-			<header className="bg-[#d2e4ff]">
-				<MyHeader />
+			<header className="bg-[#f0ebff]">
+				<MyHeader color={"#e6d6ff"} />
 			</header>
 
-			<main className="flex-1 overflow-y-auto">
+			<main className="flex-1 overflow-y-auto bg-[#f0ebff]">
 				<div className="flex justify-center">
 					<div className="w-10/12 md:w-6/12">
-						<div className="grid grid-cols-1 divide-y divide-[#123693]">
+						<div className="grid grid-cols-1 gap-y-12 first:my-10  divide-[#123693]">
 							{projectDb.map(
 								({ name, img, date, desc, demo, code, technologies }) => {
 									return (
-										<div key={name} className="py-8">
+										<div
+											key={name}
+											className="p-8 border bg-white border-[#123693]"
+										>
 											<div className="text-md text-gray-600 pb-2 font-opensans tracking-tighter">
 												{date}
 											</div>
@@ -124,7 +127,7 @@ export default function projects() {
 													<div className="flex justify-start space-x-2">
 														{demo ? (
 															<a
-																className="font-raleway font-semibold cursor-pointer items-center flex space-x-4 border-[#123693] border py-1 px-3 rounded-md hover:bg-[#d4ffed]  transition ease-in duration-200"
+																className="font-raleway font-semibold cursor-pointer items-center flex space-x-4 border-[#123693] border py-1 px-3 rounded-md bg-[#f0ebff] hover:bg-white transition ease-in duration-200"
 																href={demo}
 																target="_blank"
 																rel="noreferrer"
@@ -150,7 +153,7 @@ export default function projects() {
 														)}
 
 														<a
-															className="font-raleway  font-semibold  cursor-pointer items-center flex space-x-4 border-[#123693] border py-1 px-3 rounded-md hover:bg-[#ffeacc]  transition ease-in duration-200"
+															className="font-raleway  font-semibold  cursor-pointer items-center flex space-x-4 border-[#123693] border py-1 px-3 rounded-md bg-[#f0ebff] hover:bg-white transition ease-in duration-200"
 															href={code}
 															target="_blank"
 															rel="noreferrer"
@@ -182,7 +185,7 @@ export default function projects() {
 					</div>
 				</div>
 			</main>
-			<footer className="bg-[#d2e4ff]">
+			<footer className="bg-[#f0ebff]">
 				<MyFooter />
 			</footer>
 		</div>
