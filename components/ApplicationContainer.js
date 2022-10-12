@@ -27,7 +27,7 @@ export const ApplicationContainer = ({ children }) => {
 						background: "#d2e4ff",
 						paddingLeft: "0px",
 						paddingRight: "0px",
-						paddingBottom: "40px",
+						paddingBottom: "60px",
 					},
 				}}
 				fixed
@@ -39,7 +39,7 @@ export const ApplicationContainer = ({ children }) => {
 				header={
 					<Header height={70} background={"#d2e4ff"}>
 						<div className="flex justify-center py-4">
-							<div className="justify-between flex w-11/12 md:w-6/12 items-end">
+							<div className="justify-between flex w-10/12 lg:w-10/12 items-end">
 								<Link href="/">
 									<div className="font-raleway text-2xl cursor-pointer font-semibold">
 										Matthew Kim
