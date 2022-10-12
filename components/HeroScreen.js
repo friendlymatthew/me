@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Button from "./Button";
 
 export default function HeroScreen() {
 	return (
@@ -7,33 +8,36 @@ export default function HeroScreen() {
 				<span className="">
 					I&apos;m a software engineer that uses cloud services to build
 					scalable, cost-effective, and efficient applications.{" "}
-					<Link href="/proof">
-						<span className="text-sm text-blue-700 hover:no-underline underline underline-offset-1 cursor-pointer">
-							Proof
-						</span>
-					</Link>
+					<span className="text-sm">
+						<Link href="/proof">
+							<Button title={"Proof"} />
+						</Link>
+					</span>
 				</span>
 
-				<span>
-					I&apos;m currently
+				<span className="group group-hover:bg-[#ffe6f0]">
 					<a
 						href="https://courtst-farmers.vercel.app"
 						target="_blank"
 						rel="noreferrer"
-						className="group cursor-pointer text-blue-700 hover:no-underline underline  underline-offset-4"
 					>
-						{" "}
-						building an intelligent automated grow system and software to raise
-						and sell organic spinach{" "}
-					</a>
-					<a className="cursor-pointer text-emerald-800 hover:no-underline underline underline-offset-4">
-						with the data to back it up.
+						<Button
+							title={
+								"I'm currently building a cloud service to analyze optimal soil conditions for crop growth"
+							}
+						/>
 					</a>
 				</span>
 
 				<span>
 					I&apos;m interested in building web and cloud-based solutions to solve
 					problems in the farming industry.
+				</span>
+
+				<span>
+					<Link href="/myresume">
+						<div className="cursor-pointer">This</div>
+					</Link>
 				</span>
 
 				<span>

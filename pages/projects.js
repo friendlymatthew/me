@@ -5,7 +5,7 @@ const projectDb = [
 		name: "The Watermark",
 		img: "",
 		date: "August 2022",
-		desc: "A website to advertise a luxury condo in Honolulu, Hawaii. The purpose of this website was to connect interested tenants to the realtor. Website uses Email.js to send forms to realtor's inbox.",
+		desc: "A website to advertise a condo in Honolulu, Hawaii. The purpose of this website was to connect interested tenants to the realtor. Website uses Email.js to send forms to realtor's inbox.",
 		demo: "",
 		code: "https://github.com/friendlymatthew/watermark",
 		technologies: "Next.js, React.js, Tailwindcss",
@@ -69,7 +69,7 @@ export default function projects() {
 				/>
 			</Head>
 			<div className="w-10/12 md:w-6/12">
-				<div className="grid grid-cols-1 divide-y-2">
+				<div className="grid grid-cols-1 divide-y divide-[#123693]">
 					{projectDb.map(
 						({ name, img, date, desc, demo, code, technologies }) => {
 							return (
@@ -115,7 +115,7 @@ export default function projects() {
 											<div className="flex justify-start space-x-2">
 												{demo ? (
 													<a
-														className="font-raleway font-semibold hover:text-white cursor-pointer items-center flex space-x-4 border-black border py-1 px-3 rounded-md hover:bg-black transition ease-in duration-200"
+														className="font-raleway font-semibold cursor-pointer items-center flex space-x-4 border-[#123693] border py-1 px-3 rounded-md hover:bg-[#d4ffed]  transition ease-in duration-200"
 														href={demo}
 														target="_blank"
 														rel="noreferrer"
@@ -141,7 +141,7 @@ export default function projects() {
 												)}
 
 												<a
-													className="font-raleway  font-semibold hover:text-white cursor-pointer items-center flex space-x-4 border-black border py-1 px-3 rounded-md hover:bg-black transition ease-in duration-200"
+													className="font-raleway  font-semibold  cursor-pointer items-center flex space-x-4 border-[#123693] border py-1 px-3 rounded-md hover:bg-[#ffeacc]  transition ease-in duration-200"
 													href={code}
 													target="_blank"
 													rel="noreferrer"
