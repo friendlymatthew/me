@@ -234,9 +234,9 @@ export default function Home() {
 							<div className="flex flex-col justify-between h-[600px]">
 								<div>
 									<div>
-										I&apos;m currently building a crop and soil analytics
-										platform from data transmitted by our smart device using
-										AWS.
+										I&apos;m currently building a data analytics platform from
+										soil measured by our smart{" "}
+										<span className="cursor-help">IoT</span> device using AWS.
 									</div>
 
 									<div className="pt-8 flex space-x-4 items-center cursor-pointer group py-2">
@@ -246,7 +246,7 @@ export default function Home() {
 											href="https://www.github.com/friendlymatthew"
 										>
 											<div className="group-hover:underline underline-offset-2 ">
-												Learn More
+												Coming Soon
 											</div>
 										</a>
 										<a className="cursor-pointer group-hover:ring-4 bg-[#ffdb13] group-hover:bg-[#0053d6] transition ease-in duration-200 h-12 w-12 flex justify-center items-center  rounded-full">

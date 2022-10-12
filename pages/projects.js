@@ -14,7 +14,7 @@ const projectDb = [
 	},
 	{
 		name: "Facebook Campaign Spending Interface",
-		img: "/fbinterface.png",
+		img: "/presidents.png",
 		date: "March 2022 - May 2022",
 		desc: "A data vizualization application that uses Facebook Ad data to track campaign spending for the US 2020 Presidential election. I worked with the Wesleyan Media Project to provide week-by-week insights. The website needed to be modular as data was constantly being updated.",
 		demo: "https://presidentwmp.vercel.app/",
