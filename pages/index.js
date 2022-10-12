@@ -133,7 +133,7 @@ export default function Home() {
 								scalable, cost-effective, and efficient applications.{"   "}
 							</span>
 							<Link href="/proof">
-								<a className="font-normal text-lg cursor-pointer hover:underline underline-offset-2 hover:bg-[#ffdb13] rounded-xl p-2 transition ease-in duration-100">
+								<a className="font-normal text-lg cursor-pointer hover:underline underline-offset-2 hover:bg-[#0053d6] hover:text-white bg-[#ffdb13] rounded-xl p-2 transition ease-in duration-100">
 									Proof
 								</a>
 							</Link>
