@@ -199,10 +199,8 @@ export default function Home() {
 											<ul className="font-normal">
 												{things.map(({ thing, subthings }) => {
 													return (
-														<div>
-															<li key={thing} className="mb-0.5">
-																{thing}
-															</li>
+														<div key={thing}>
+															<li className="mb-0.5">{thing}</li>
 															{subthings ? (
 																<ul>
 																	{subthings.map(({ sthing }) => {
