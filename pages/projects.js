@@ -4,6 +4,15 @@ import MyHeader from "../components/MyHeader";
 
 const projectDb = [
 	{
+		name: "Plant Based Data",
+		img: "",
+		date: "July 2022 - Now",
+		desc: "A web application and cloud service that collects soil data from IOT device using AWS IOT core. Web applicaton delivers visualization of current soil conditions across multiple farm plots.",
+		demo: "",
+		code: "https://github.com/friendlymatthew/watermark",
+		technologies: "Next.js, React.js, Tailwindcss",
+	},
+	{
 		name: "The Watermark",
 		img: "",
 		date: "August 2022",
@@ -16,7 +25,7 @@ const projectDb = [
 		name: "Facebook Campaign Spending Interface",
 		img: "/presidents.png",
 		date: "March 2022 - May 2022",
-		desc: "A data vizualization application that uses Facebook Ad data to track campaign spending for the US 2020 Presidential election. I worked with the Wesleyan Media Project to provide week-by-week insights. The website needed to be modular as data was constantly being updated.",
+		desc: "A web application that compares campaigns’ spendings  on Facebook ads in each state during the 2020 US presidential election. I built interactive timeline using Facebook ad data over a 33 week period, imaged spending data through custom chloropleth maps, and analyzed net difference of campaign results.",
 		demo: "https://presidentwmp.vercel.app/",
 		code: "https://github.com/friendlymatthew/facebookad",
 		technologies: "Next.js, React.js, TailwindCSS",
@@ -25,7 +34,7 @@ const projectDb = [
 		name: "SeekWMP - API",
 		img: "/seekapi.png",
 		date: "March 2022",
-		desc: "A cloud-computed service that stores training data for ML model. The service is high performing and scalable. ",
+		desc: "A backend service written in Serverless and Node.js that stores ML training data in DynamoDB using API Gateway and AWS Lambda",
 		demo: "",
 		code: "https://github.com/friendlymatthew/wmpseekapi",
 		technologies:
@@ -35,7 +44,7 @@ const projectDb = [
 		name: "SeekWMP",
 		img: "/seek.png",
 		date: "Oct 2021 - Feb 2022",
-		desc: "An internal web tool to help research members to efficiently mark the region of interest within news clips. The purpose of this web tool was to expedite the workflow and create an efficient data pipeline to crowdsource training data.",
+		desc: "A training data annotation platform that delegates 200+ tasks to 18 team members every semester and produces annotated video and audio data; ready to be consumed by ML models.",
 		demo: "https://seekwmp.vercel.app/?market=Portland&station=WPFO&title=DailyMailTV&snippet=be+taking+to+make+the+risks+are+worth+their+rewards+medical+staff+housekeeping+and+that+of+se+--+jesse:+jay+jacobs+the+ceo+of+the+timberlake+family+of+camps+is+talking+about+what+it+takes+to+operate+a+summer+camp+in+the+time+of+covid-19+before+the+recently+announced+new+york+ban+jacobs+had+planned+to+open+some+of+his&coder=eraab&url=covid/xWPFO_20200619_1100PM.mp4&id=4&seek=1357",
 		code: "https://github.com/friendlymatthew/seekwmp",
 		technologies: "Next.js, React.js, ReactPlayer, TailwindCSS, Qualtrics",

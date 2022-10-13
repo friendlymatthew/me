@@ -129,7 +129,7 @@ export default function Home() {
 					<div className="w-10/12 md:w-7/12 text-3xl py-16">
 						<span>
 							<span>
-								I&apos;m a software engineer that uses cloud services to build
+								I&apos;m a software engineer who uses cloud services to build
 								scalable, cost-effective, and efficient applications.{"   "}
 							</span>
 							<Link href="/proof">
