@@ -9,8 +9,9 @@ const projectDb = [
 		date: "July 2022 - Now",
 		desc: "A web application and cloud service that collects soil data from IOT device using AWS IOT core. Web applicaton delivers visualization of current soil conditions across multiple farm plots.",
 		demo: "",
-		code: "https://github.com/friendlymatthew/watermark",
-		technologies: "Next.js, React.js, Tailwindcss",
+		code: "https://github.com/friendlymatthew/",
+		technologies:
+			"Next.js, React.js, D3.js, Node.js, AWS: IOT Core, Lambda, DynamoDB, API Gateway, Cloudwatch",
 	},
 	{
 		name: "The Watermark",
@@ -86,7 +87,7 @@ export default function projects() {
 
 			<main className="flex-1 overflow-y-auto bg-[#f0ebff]">
 				<div className="flex justify-center">
-					<div className="w-10/12 md:w-6/12">
+					<div className="w-10/12 xl:w-6/12">
 						<div className="grid grid-cols-1 gap-y-12 first:my-10  divide-[#123693]">
 							{projectDb.map(
 								({ name, img, date, desc, demo, code, technologies }) => {
@@ -104,6 +105,7 @@ export default function projects() {
 													src={img}
 													className=" border-black order-first lg:order-last  mb-4"
 												></img>
+
 												<div className="col-span-1 flex flex-col justify-between space-y-6">
 													<div>
 														<div className="pb-1 text-2xl font-semibold font-raleway">
@@ -115,12 +117,12 @@ export default function projects() {
 															{desc}
 														</div>
 													</div>
-													<div className="flex justify-start space-x-2 mt-4 items-center mb-3">
+													<div className=" flex space-x-3 items-center">
 														<svg
 															xmlns="http://www.w3.org/2000/svg"
 															viewBox="0 0 20 20"
 															fill="currentColor"
-															className="w-4 h-4"
+															className="w-5 h-5"
 														>
 															<path
 																fillRule="evenodd"
@@ -128,7 +130,7 @@ export default function projects() {
 																clipRule="evenodd"
 															/>
 														</svg>
-														<div className="font-opensans tracking-tighter text-sm">
+														<div className="font-opensans tracking-tighter text-sm w-9/12">
 															{technologies}
 														</div>
 													</div>
