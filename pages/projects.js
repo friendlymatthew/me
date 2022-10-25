@@ -51,6 +51,15 @@ const projectDb = [
 		technologies: "Next.js, React.js, ReactPlayer, TailwindCSS, Qualtrics",
 	},
 	{
+		name: "Hungry Cloud",
+		img: "/hungry.png",
+		date: "March 2022",
+		desc: "This web application visualizes DynamoDB's low-latency transactions by inviting users to mash their keyboard sending data to DynamoDB.",
+		demo: "http://hungrycloud.vercel.app",
+		code: "https://github.com/friendlymatthew/hungrycloud",
+		technologies: "Next.js, React.js, Node.js, Serverless Framework, DynamoDB",
+	},
+	{
 		name: "YOBO (You Only airBend Once)",
 		img: "/yobo.png",
 		date: "May 2021",
