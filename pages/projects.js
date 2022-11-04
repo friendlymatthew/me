@@ -32,7 +32,7 @@ const projectDb = [
 		technologies: "Next.js, React.js, TailwindCSS",
 	},
 	{
-		name: "SeekWMP - API",
+		name: "Seek - API",
 		img: "/seekapi.png",
 		date: "March 2022",
 		desc: "A backend service written in Serverless and Node.js that stores ML training data in DynamoDB using API Gateway and AWS Lambda",
@@ -42,7 +42,7 @@ const projectDb = [
 			"Serverless Framework and AWS: DynamoDB, Lambda, API Gateway, CloudWatch, and CloudFormation",
 	},
 	{
-		name: "SeekWMP",
+		name: "Seek",
 		img: "/seek.png",
 		date: "Oct 2021 - Feb 2022",
 		desc: "A training data annotation platform that delegates 200+ tasks to 18 team members every semester and produces annotated video and audio data; ready to be consumed by ML models.",

@@ -45,12 +45,11 @@ export default function MyHeader({ color }) {
 					</span>
 				</span>
 				<div className="flex space-x-4 md:space-x-8 text-base md:text-lg font-normal">
-					<a
-						onClick={handleResume}
-						className="cursor-pointer hover:underline underline-offset-2"
-					>
-						Resume
-					</a>
+					<Link href="/myresume">
+						<a className="cursor-pointer hover:underline underline-offset-2">
+							Resume
+						</a>
+					</Link>
 					<Link href="/projects">
 						<a className="cursor-pointer hover:underline underline-offset-2">
 							Projects
