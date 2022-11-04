@@ -7,22 +7,22 @@ const postDb = [
 		desc: "fpweijfpeiwjf",
 	},
 	{
-		id: "1",
+		id: "2",
 		title: "Seekwmp",
 		desc: "fpweijfpeiwjf",
 	},
 	{
-		id: "1",
+		id: "3",
 		title: "Seekwmp",
 		desc: "fpweijfpeiwjf",
 	},
 	{
-		id: "1",
+		id: "4",
 		title: "Seekwmp",
 		desc: "fpweijfpeiwjf",
 	},
 	{
-		id: "1",
+		id: "0",
 		title: "Seekwmp",
 		desc: "fpweijfpeiwjf",
 	},
@@ -35,7 +35,10 @@ export default function Blogs() {
 			<ul className="w-full ">
 				{postDb.map(({ id, title, desc }) => {
 					return (
-						<li className="flex font-normal text-lg border-y-[0.5px] cursor-pointer hover:bg-[#d4ffed] transition ease-in duration-200  p-4 bg-white">
+						<li
+							key={id}
+							className="flex font-normal text-lg border-y-[0.5px] cursor-pointer hover:bg-[#d4ffed] transition ease-in duration-200  p-4 bg-white"
+						>
 							<div>{id}</div>
 							<div>{title}</div>
 						</li>
