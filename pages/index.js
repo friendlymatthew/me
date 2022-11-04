@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
+import Blogs from "../components/Blogs";
 import MyFooter from "../components/MyFooter";
 import MyHeader from "../components/MyHeader";
 
@@ -229,7 +230,7 @@ export default function Home() {
 					</div>
 				</section>
 
-				<div className="bg-[#e6d6ff] flex justify-center text-xl font-normal">
+				<div className=" flex justify-center text-xl font-normal">
 					<div className="w-10/12 md:w-7/12 py-16 grid grid-col-1 lg:gap-y-0 gap-y-4 lg:gap-x-12 lg:grid-cols-2">
 						<img src="/sensor.png"></img>
 

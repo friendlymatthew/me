@@ -3,9 +3,10 @@ import MyFooter from "../components/MyFooter";
 import MyHeader from "../components/MyHeader";
 
 const projectDb = [
+	/*
 	{
 		name: "Plant Based Data",
-		img: "",
+		img: "/sensor.png",
 		date: "July 2022 - Now",
 		desc: "A web application and cloud service that collects soil data from IOT device using AWS IOT core. Web applicaton delivers visualization of current soil conditions across multiple farm plots.",
 		demo: "",
@@ -22,11 +23,12 @@ const projectDb = [
 		code: "https://github.com/friendlymatthew/watermark",
 		technologies: "Next.js, React.js, Tailwindcss",
 	},
+	*/
 	{
 		name: "Facebook Campaign Spending Interface",
 		img: "/presidents.png",
 		date: "March 2022 - May 2022",
-		desc: "A web application that compares campaigns’ spendings  on Facebook ads in each state during the 2020 US presidential election. I built interactive timeline using Facebook ad data over a 33 week period, imaged spending data through custom chloropleth maps, and analyzed net difference of campaign results.",
+		desc: "A web application that compares campaigns’ spendings  on Facebook ads in each state during the 2020 US presidential election. This interactive timeline used data over 33-week period. I analyzed spending data, tabled results, and imaged spending data through custom chloropleth maps. This website was visited by journalists covering 2020 US election. ",
 		demo: "https://presidentwmp.vercel.app/",
 		code: "https://github.com/friendlymatthew/facebookad",
 		technologies: "Next.js, React.js, TailwindCSS",
@@ -35,7 +37,7 @@ const projectDb = [
 		name: "Seek - API",
 		img: "/seekapi.png",
 		date: "March 2022",
-		desc: "A backend service written in Serverless and Node.js that stores ML training data in DynamoDB using API Gateway and AWS Lambda",
+		desc: "A backend service written in Serverless and Node.js that stores ML training data in DynamoDB using API Gateway and AWS Lambda.",
 		demo: "",
 		code: "https://github.com/friendlymatthew/wmpseekapi",
 		technologies:
@@ -65,7 +67,7 @@ const projectDb = [
 		name: "YOBO (You Only airBend Once)",
 		img: "/yobo.png",
 		date: "May 2021",
-		desc: "A custom YOLOv3 network that detects Aang's face from Avatar: The Last Airbender. My friend and I collected training data from Season 1. We used an 80/20 split on our training data. The model was successful detecting Aang's face.",
+		desc: "Built model that identifies Aang from Avatar: The Last Airbender using YOLOv3, a real-time object detection system.",
 		demo: "https://www.youtube.com/watch?v=IXJ6LRCrv8Q&feature=youtu.be",
 		code: "https://github.com/matthewkmkim/YOBO",
 		technologies: "Python",
