@@ -24,6 +24,7 @@ const projectDb = [
 		technologies: "Next.js, React.js, Tailwindcss",
 	},
 	*/
+
 	{
 		name: "Facebook Campaign Spending Interface",
 		img: "/presidents.png",
@@ -34,6 +35,15 @@ const projectDb = [
 		technologies: "Next.js, React.js, TailwindCSS",
 	},
 	{
+		name: "Seek",
+		img: "/seek.png",
+		date: "Oct 2021 - Feb 2022",
+		desc: "A training data annotation platform that delegates 200+ tasks to 18 team members every semester and produces annotated video and audio data; ready to be consumed by ML models.",
+		demo: "https://seekwmp.vercel.app/?market=Portland&station=WPFO&title=DailyMailTV&snippet=be+taking+to+make+the+risks+are+worth+their+rewards+medical+staff+housekeeping+and+that+of+se+--+jesse:+jay+jacobs+the+ceo+of+the+timberlake+family+of+camps+is+talking+about+what+it+takes+to+operate+a+summer+camp+in+the+time+of+covid-19+before+the+recently+announced+new+york+ban+jacobs+had+planned+to+open+some+of+his&coder=eraab&url=covid/xWPFO_20200619_1100PM.mp4&id=4&seek=1357",
+		code: "https://github.com/friendlymatthew/seekwmp",
+		technologies: "Next.js, React.js, ReactPlayer, TailwindCSS, Qualtrics",
+	},
+	{
 		name: "Seek - API",
 		img: "/seekapi.png",
 		date: "March 2022",
@@ -42,15 +52,6 @@ const projectDb = [
 		code: "https://github.com/friendlymatthew/wmpseekapi",
 		technologies:
 			"Serverless Framework and AWS: DynamoDB, Lambda, API Gateway, CloudWatch, and CloudFormation",
-	},
-	{
-		name: "Seek",
-		img: "/seek.png",
-		date: "Oct 2021 - Feb 2022",
-		desc: "A training data annotation platform that delegates 200+ tasks to 18 team members every semester and produces annotated video and audio data; ready to be consumed by ML models.",
-		demo: "https://seekwmp.vercel.app/?market=Portland&station=WPFO&title=DailyMailTV&snippet=be+taking+to+make+the+risks+are+worth+their+rewards+medical+staff+housekeeping+and+that+of+se+--+jesse:+jay+jacobs+the+ceo+of+the+timberlake+family+of+camps+is+talking+about+what+it+takes+to+operate+a+summer+camp+in+the+time+of+covid-19+before+the+recently+announced+new+york+ban+jacobs+had+planned+to+open+some+of+his&coder=eraab&url=covid/xWPFO_20200619_1100PM.mp4&id=4&seek=1357",
-		code: "https://github.com/friendlymatthew/seekwmp",
-		technologies: "Next.js, React.js, ReactPlayer, TailwindCSS, Qualtrics",
 	},
 	{
 		name: "Hungry Cloud",
