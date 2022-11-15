@@ -126,7 +126,7 @@ export default function Home() {
 			</header>
 
 			<main className="relative">
-				<section className="grid grid-cols-1 place-items-center bg-[#d2e4ff]">
+				<section className="grid grid-cols-1 place-items-center">
 					<div className="w-10/12 md:w-7/12 text-3xl py-16">
 						<span className="font-normal">
 							<span>
@@ -141,7 +141,7 @@ export default function Home() {
 						</span>
 
 						<div className="text-xl font-normal mt-8 grid lg:grid-cols-4 grid-cols-1 pb-6">
-							<div className="col-span-2 flex space-x-4 items-center cursor-pointer group py-2">
+							<div className="col-span-2 flex space-x-4 items-center cursor-pointer group py-2 w-fit">
 								<a
 									onClick={handleResume}
 									className="group-hover:underline underline-offset-2 "
