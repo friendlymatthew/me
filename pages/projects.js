@@ -95,7 +95,7 @@ export default function projects() {
 			</Head>
 
 			<header className="bg-[#f0ebff]">
-				<MyHeader color={"#e6d6ff"} />
+				<MyHeader color={"#e6d6ff"} tome={true} />
 			</header>
 
 			<main className="flex-1 overflow-y-auto bg-[#f0ebff]">

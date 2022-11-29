@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function MyHeader({ color }) {
+export default function MyHeader({ color, tome }) {
 	const handleResume = () => {
 		// using Java Script method to get PDF file
 		fetch("resume.pdf").then((response) => {
@@ -21,9 +21,15 @@ export default function MyHeader({ color }) {
 			<div className="w-10/12 md:w-7/12 text-3xl font-opensans flex justify-between items-center">
 				<span className="flex space-x-4 items-center">
 					<Link href="/">
-						<a className="font-normal cursor-pointer hover:underline underline-offset-2 text-base md:text-3xl">
-							Matthew Kim
-						</a>
+						{tome ? (
+							<a className="font-normal cursor-pointer underline underline-offset-2 hover:no-underline text-base md:text-3xl">
+								Matthew Kim
+							</a>
+						) : (
+							<a className="font-normal cursor-pointer hover:underline underline-offset-2 text-base md:text-3xl">
+								Matthew Kim
+							</a>
+						)}
 					</Link>
 					<span className="flex items-center space-x-3">
 						<a

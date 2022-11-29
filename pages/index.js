@@ -237,8 +237,7 @@ export default function Home() {
 						<div className="flex flex-col justify-between">
 							<div>
 								<div className="py-4 text-2xl">
-									{"   "} I care about building things that promote food
-									justice.
+									{"   "} I care about building things that advance agriculture.
 								</div>
 								<div>
 									I&apos;m currently building a soil monitoring service from

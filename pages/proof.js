@@ -22,7 +22,7 @@ export default function Proof() {
 				/>
 			</Head>
 			<header className="sticky top-0 z-50 bg-[#d4ffed]">
-				<MyHeader />
+				<MyHeader tome={true} />
 			</header>
 			<div className="grid grid-cols-1 place-items-center py-8">
 				<img src="/proof.png" className="w-8/12"></img>

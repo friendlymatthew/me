@@ -38,7 +38,7 @@ export default function Resume() {
 				/>
 			</Head>
 			<header className="sticky top-0 z-50 bg-[#d2e4ff]">
-				<MyHeader />
+				<MyHeader tome={true} />
 			</header>
 			<div className="flex justify-center py-10">
 				<div>
